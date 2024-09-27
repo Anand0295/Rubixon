@@ -3,10 +3,11 @@
 This research uses machine learning and natural language processing (NLP) techniques to identify cybersecurity vulnerabilities by analysing network traffic data and system logs. It uses an Isolation Forest technique to discover anomalies in network traffic, and a Logistic Regression classifier with TF-IDF vectorisation to detect threats in system logs. The system has a simple Flask web interface that allows for easy interaction and intuitive visualisation of outcomes.
 
 Project Features:
--Network Traffic Anomaly Detection: Uses the Isolation Forest method to identify strange patterns and abnormalities in network traffic data, hence improving early threat detection.
--System Log Threat Classification: Using Logistic Regression and TF-IDF vectorisation, system log entries are classified as normal or potential security concerns, allowing for proactive monitoring.
--Web Interface: The Flask web interface is intuitive and user-friendly, allowing users to upload network traffic and log data files, as well as conduct threat analysis with minimal input.
--Pre-trained Models: Includes pre-trained models for detecting network traffic anomalies and classifying log files, allowing for faster deployment and analysis without the need for model training from start.
+Network Traffic Anomaly Detection: Detects anomalies in network traffic data using the Isolation Forest algorithm.
+System Log Threat Classification: Classifies log entries as normal or potential threats using Logistic Regression with TF-IDF vectorization.
+Web Interface: A user-friendly web interface that allows users to upload data files and perform analyses with a few clicks.
+Pre-trained Models: Includes pre-trained models for both network traffic anomaly detection and log file classification.
+
 
 AI-Cybersecurity-Threat-Detection/
 │
